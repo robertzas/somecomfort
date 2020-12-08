@@ -372,7 +372,7 @@ class SomeComfort(object):
         self._session.headers['X-Requested-With'] = 'XMLHttpRequest'
         self._timeout = timeout
         self._locations = {}
-        self._baseurl = 'https://www.mytotalconnectcomfort.com/portal'
+        self._baseurl = 'https://mytotalconnectcomfort.com/portal'
         self._default_url = self._baseurl
         try:
             # Something changed recently, so just always act like we're
